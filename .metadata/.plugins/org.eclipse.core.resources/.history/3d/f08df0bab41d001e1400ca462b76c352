@@ -1,0 +1,14 @@
+package converttohours;
+
+public class Converttohours {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	public static double convertToHours(int minutes)
+	{
+		System.out.println(convertToHours(90));
+	}
+
+}

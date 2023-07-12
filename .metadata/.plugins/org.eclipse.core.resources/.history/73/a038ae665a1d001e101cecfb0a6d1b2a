@@ -1,0 +1,11 @@
+package CalculateAverage;
+
+public class Average {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CalculateAverage c= new CalculateAverage();
+		System.out.printf("%.2f",c.calculateAverage(85, 79, 91, 76, 88, 95, 80, 85));
+	}
+
+}

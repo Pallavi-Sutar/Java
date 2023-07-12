@@ -1,0 +1,24 @@
+package CalculateAverage;
+
+import java.util.Scanner;
+
+public class Average {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int sem1=sc.nextInt();
+		int sem2=sc.nextInt();
+		int sem3=sc.nextInt();
+		int sem4=sc.nextInt();
+		int sem5=sc.nextInt();
+		int sem6=sc.nextInt();
+		int sem7=sc.nextInt();
+		int sem8=sc.nextInt();
+		
+		CalculateAverage c= new CalculateAverage();
+		System.out.printf("%.2f",c.calculateAverage(85, 79, 91, 76, 88, 95, 80, 85));
+		System.out.printf("%.2f",c.calculateAverage(sem1, sem2, sem3, sem4, sem5, sem6, sem7, sem8));
+	}
+
+}

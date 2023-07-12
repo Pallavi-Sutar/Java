@@ -1,0 +1,10 @@
+package cubenumber;
+
+public class CubeNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
